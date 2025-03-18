@@ -28,3 +28,26 @@ int main()
     cout << endl;
 
     cout << "Perulangan while" << endl;
+
+    srand(time(0));
+
+    n = rand() % 10;
+
+    cout << "Nilai awal n = " << n << endl;
+
+    while (n < 7)
+    {
+        cout << "Nilai n = " << n << endl;
+        n = rand() % 10;
+        perulanganWhile++;
+    }
+    cout << "Jumlah perulangan = " << perulanganWhile << endl;
+    cout << "Nilai n terakhir = " << n << endl;
+
+    cout << "Perulangan do while" << endl;
+
+    srand(time(0));
+
+    n = rand() % 10;
+
+    cout << "Nilai awal n = " << n << endl;
